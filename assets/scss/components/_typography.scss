@@ -8,6 +8,8 @@ h1 {
 }
 
 h2 {
+  color: $color-accent;
+  text-shadow: 0 0 10px rgb(236, 27, 27);
   line-height: 1.2em;
 }
 
@@ -26,8 +28,8 @@ a {
 p {
   position: relative;
 
-  color: $color-primary;
-  text-shadow: 0 0 10px rgb(0, 0, 0);
+  color: $color-light;
+  text-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 input:focus {
