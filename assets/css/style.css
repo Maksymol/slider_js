@@ -88,7 +88,7 @@
 .control-prev {
   left: 0;
 
-  width: 30%;
+  width: 10%;
 }
 
 .fa-angle-left:hover,
@@ -143,7 +143,7 @@
   height: 20px;
   margin: -40px 7.5px 0;
 
-  border: 3px solid rgba(2, 2, 24, 0.918);
+  border: 3px solid #ffffff;
   border-radius: 50%;
   outline: none;
   background: none;
@@ -297,7 +297,7 @@ image {
 
 .navbar_item:hover,
 .navbar_item:focus {
-  color: orange;
+  color: #e66465;
   text-shadow: 0 0 10px #000000;
 }
 
@@ -431,7 +431,9 @@ body {
   border-style: groove;
   border-color: #ffffff;
   border-radius: 25px;
-  background-color: radial-gradient(circle, rgb(255, 255, 255) 0%, 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff00aa), to(#ffd900)) left top/100% 5px no-repeat, -webkit-gradient(linear, left top, right top, from(#ff00aa), to(#ffd900)) left bottom/100% 5px no-repeat;
+  background: -o-linear-gradient(left, #ff00aa 0%, #ffd900 100%) left top/100% 5px no-repeat, -o-linear-gradient(left, #ff00aa 0%, #ffd900 100%) left bottom/100% 5px no-repeat;
+  background:    linear-gradient(to right, #ff00aa 0%, #ffd900 100%) left top/100% 5px no-repeat, linear-gradient(to right, #ff00aa 0%, #ffd900 100%) left bottom/100% 5px no-repeat;
   text-shadow: 0 0 15px rgb(252, 70, 107);
 }
 
@@ -464,7 +466,7 @@ body {
   }
   .slide_text {
     top: 35%;
-    left: 50%;
+    right: -35%;
 
     width: 300px;
 
@@ -501,8 +503,8 @@ body {
     font-size: 7vh;
   }
   .slide_text {
-    top: 28%;
-    left: 50%;
+    top: 35%;
+    right: -44%;
 
     width: 300px;
 
@@ -553,8 +555,8 @@ body {
 
 @media (max-width: 1199.8px) and (min-width: 768px) {
   .slide_text {
-    top: 28%;
-    left: 50%;
+    top: 35%;
+    right: -38%;
 
     width: 200px;
 
@@ -596,7 +598,7 @@ body {
   }
   .slide_text {
     top: 35%;
-    left: 35%;
+    right: 40%;
 
     font-size: 3rem;
   }
@@ -637,7 +639,7 @@ body {
   }
   .slide_text {
     top: 35%;
-    left: 35%;
+    right: 36%;
 
     font-size: 3rem;
   }

@@ -61,23 +61,23 @@
 
   @include ul-min {
     top: 35%;
-    left: 50%;
+    right: -35%;
 
     width: 300px;
 
     font-size: 4rem;
   }
   @include ul-xl {
-    top: 28%;
-    left: 50%;
+    top: 35%;
+    right: -44%;
 
     width: 300px;
 
     font-size: 3rem;
   }
   @include xl-md {
-    top: 28%;
-    left: 50%;
+    top: 35%;
+    right: -38%;
 
     width: 200px;
 
@@ -85,13 +85,13 @@
   }
   @include md-sm {
     top: 35%;
-    left: 35%;
+    right: 40%;
 
     font-size: 3rem;
   }
   @include sm {
     top: 35%;
-    left: 35%;
+    right: 36%;
 
     font-size: 3rem;
   }
